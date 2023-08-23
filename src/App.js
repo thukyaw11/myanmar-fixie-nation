@@ -7,7 +7,10 @@ import Whoweare from "./components/Whoweare";
 import Activities from "./components/Activities";
 import Team from "./components/Team";
 
+
 function App() {
+
+
   return (
     <div className="font-poppins">
       <Header />
