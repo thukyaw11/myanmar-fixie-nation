@@ -1,5 +1,5 @@
 import { IonIcon } from "@ionic/react";
-import { close, logoIonic, menu, toggle } from "ionicons/icons";
+import { close, menu  } from "ionicons/icons";
 import { useState } from "react";
 
 const Header = () => {
