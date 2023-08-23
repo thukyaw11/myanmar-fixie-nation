@@ -29,9 +29,9 @@ const Header = () => {
 
   const navListItems = headersLink.map((navList) => (
     <li key={navList.headerTab}>
-      <a href="" className="hover:text-gray-500">
+      <span  className="hover:text-gray-500">
         {navList.headerTab}
-      </a>
+      </span>
     </li>
   ));
 
