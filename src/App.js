@@ -6,6 +6,8 @@ import Statistics from "./components/Statistics";
 import Whoweare from "./components/Whoweare";
 import Activities from "./components/Activities";
 import Team from "./components/Team";
+import JoinUs from "./components/JoinUs";
+import HocPage from "./components/HocPage";
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
         <Whoweare />
         <Activities />
         <Team />
+        <JoinUs />
+        <HocPage />
       </div>
     </div>
   );

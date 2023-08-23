@@ -5,6 +5,7 @@ import "animate.css";
 
 const Landing = () => {
   return (
+    
     <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
       <div className="flex items-center justify-center h-100 w-auto">
         <div className="text-5xl md:text-7xl pt-16 md:pt-0">
