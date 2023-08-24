@@ -9,13 +9,13 @@ const HocPage = () => {
         className="h-auto w-full rounded-l-[400px] object-cover object-center"
       />
       <div className="flex flex-col justify-center p-10">
-        <p className="text-5xl font-semibold">History of Cycling</p>
-        <p className="pt-6 text-gray-600">
+        <p className="text-5xl font-semibold dark:text-white">History of Cycling</p>
+        <p className="pt-6 text-gray-600 dark:text-slate-400">
         With our sport of cycling, we will make our nation proud.
         </p>
 
-        <button className="bg-black text-white px-5 py-2 rounded-full hover:bg-[#333634] w-36 mt-10 transition duration-300">
-          Join Us
+        <button className="bg-black dark:bg-[#cccccc] dark:text-black dark:hover:bg-gray-400 text-white px-5 py-2 rounded-full hover:bg-[#333634] w-36 mt-10 transition duration-300">
+          Explore Now
         </button>
       </div>
     </div>

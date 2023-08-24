@@ -14,7 +14,7 @@ function App() {
 
 
   return (
-    <div className="font-poppins">
+    <div className="font-poppins bg-white dark:bg-[#0F172A]" >
       <Header />
       <div className="container mx-auto md:px-0 px-4">
         <Landing />

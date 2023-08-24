@@ -9,12 +9,12 @@ const Landing = () => {
     <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
       <div className="flex items-center justify-center h-100 w-auto">
         <div className="text-5xl md:text-7xl pt-16 md:pt-0">
-          <span className="font-semibold gradient-text">Myanmar </span> <br />{" "}
+          <span className="font-semibold gradient-text dark:text-white">Myanmar </span> <br />{" "}
           <br />
-          <span className="font-semibold gradient-text">
+          <span className="font-semibold gradient-text dark:text-white">
             Fixie Nation
           </span>
-            <p className="text-base text-gray-500 mt-10">{content.briefMFN}</p>
+            <p className="text-base  dark:text-slate-400  mt-10">{content.briefMFN}</p>
         </div>
       </div>
 

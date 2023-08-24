@@ -14,7 +14,7 @@ const Team = () => {
   return (
     <div className="mt-16">
      
-      <p className="text-center text-3xl text-black font-semibold mb-10">
+      <p className="text-center text-3xl text-black font-semibold mb-10 dark:text-white">
         Our Team
       </p>
 
@@ -36,7 +36,7 @@ const Team = () => {
           },
         }}
         pagination={{
-          clickable: true,
+          dynamicBullets: true,
         }}
         modules={[Pagination]}
         className="mySwiper"

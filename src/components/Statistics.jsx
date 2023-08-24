@@ -10,7 +10,7 @@ const Statistics = () => {
 
 const StatisticsCard = ({ count, text, percent }) => {
   return (
-    <div className="flex rounded-lg w-[100%] md:w-[70%] lg:w-[90%] h-28 mx-0 md:mx-auto items-center justify-around text-black bg-gray-200">
+    <div className="flex rounded-lg w-[100%] md:w-[70%] lg:w-[90%] h-28 mx-0 md:mx-auto items-center justify-around text-black dark:text-white bg-gray-200 dark:bg-slate-800">
       <div className="text-5xl font-semibold">
         {count} {percent ? "%" : "+"}{" "}
       </div>

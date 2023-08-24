@@ -40,7 +40,7 @@ const Activities = () => {
             ></IonIcon>
     </div>
     <div className="mt-16">
-      <p className="text-center text-3xl text-black font-semibold">
+      <p className="text-center text-3xl text-black font-semibold dark:text-white">
         Activities
       </p>
       <div className="flex items-center justify-center py-4 md:py-8 flex-wrap">
