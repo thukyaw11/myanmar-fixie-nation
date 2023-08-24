@@ -31,7 +31,7 @@ const Activities = () => {
 
   return (
     <>
-    <div className={model? 'model open' : 'model'}>
+    <div className={model? 'model open' : 'model'} id="activities">
       <img src={tempimgSrc} alt="" />
       <IonIcon
         onClick={() => setModel(false)}

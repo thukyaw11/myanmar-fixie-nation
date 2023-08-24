@@ -2,7 +2,7 @@ const JoinUs = () => {
   return (
     <div className="rounded-lg w-auto mt-24 grid md:grid-cols-2 grid-cols-1 gap-4 mx-0">
       <div className="flex flex-col justify-center p-10">
-        <p className="text-5xl font-semibold dark:text-white">Be a part of our community</p>
+        <p className="md:text-5xl text-4xl font-semibold dark:text-white">Be a part of our community</p>
         <p className="pt-6 text-gray-600 dark:text-slate-400">
           We love what we do and we do it with passion
         </p>

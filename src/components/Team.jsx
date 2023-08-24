@@ -12,7 +12,7 @@ import {teamMember} from '../content/team'
 
 const Team = () => {
   return (
-    <div className="mt-16">
+    <div className="mt-16" id="team">
      
       <p className="text-center text-3xl text-black font-semibold mb-10 dark:text-white">
         Our Team

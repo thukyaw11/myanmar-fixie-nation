@@ -3,6 +3,7 @@ import { close, menu } from "ionicons/icons";
 import { useState } from "react";
 import Switcher from "../helper/Switcher";
 import logo from "../assets/logo.png";
+import { Link } from "react-scroll";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -14,24 +15,36 @@ const Header = () => {
   const headersLink = [
     {
       headerTab: "Home",
+      linkTo: "home",
     },
     {
       headerTab: "About Us",
+      linkTo: "aboutus",
     },
     {
       headerTab: "Activities",
+      linkTo: "activities",
     },
     {
       headerTab: "Team",
+      linkTo: "team",
     },
     {
       headerTab: "Blog",
+      linkTo: "hoc",
     },
   ];
 
-  const navListItems = headersLink.map((navList) => (
-    <li key={navList.headerTab}>
-      <span className="hover:text-gray-500">{navList.headerTab}</span>
+  const navListItems = headersLink.map((navList, index) => (
+    <li key={index}>
+      <Link
+        to={navList.linkTo}
+        smooth={true}
+        spy={true}
+        className="hover:text-gray-500"
+      >
+        {navList.headerTab}
+      </Link>
     </li>
   ));
 
@@ -43,12 +56,16 @@ const Header = () => {
         } flex flex-col bg-white dark:bg-[#0F172A]`}
       >
         {headersLink.map((mobileNavList, index) => (
-          <div
+          <Link
+            to={mobileNavList.linkTo}
+            smooth={true}
+            spy={true}
             className="text-2xl text-black dark:text-white w-[80%] text-center mb-8 bg-gray-200 dark:bg-slate-800 py-3 rounded-full"
             key={index}
+            onClick={() => setToggle(false)}
           >
             {mobileNavList.headerTab}
-          </div>
+          </Link>
         ))}
         <div
           className="text-2xl text-black dark:text-white w-[80%] text-center bg-red-200 py-3 rounded-full flex justify-center"
