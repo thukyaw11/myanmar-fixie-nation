@@ -1,4 +1,5 @@
 import mockup from '../assets/mockup.png'
+import {content} from '../content'
 
 const HocPage = () => {
   return (
@@ -11,7 +12,7 @@ const HocPage = () => {
       <div className="flex flex-col justify-center p-10">
         <p className="text-5xl font-semibold dark:text-white">History of Cycling</p>
         <p className="pt-6 text-gray-600 dark:text-slate-400">
-        With our sport of cycling, we will make our nation proud.
+        {content.hocContent}
         </p>
 
         <button className="bg-black dark:bg-[#cccccc] dark:text-black dark:hover:bg-gray-400 text-white px-5 py-2 rounded-full hover:bg-[#333634] w-36 mt-10 transition duration-300">

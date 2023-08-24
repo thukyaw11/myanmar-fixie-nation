@@ -1,7 +1,8 @@
 import { IonIcon } from "@ionic/react";
-import { close, menu  } from "ionicons/icons";
+import { close, menu } from "ionicons/icons";
 import { useState } from "react";
-import Switcher from '../helper/Switcher'
+import Switcher from "../helper/Switcher";
+import logo from "../assets/logo.png";
 
 const Header = () => {
   const [toggle, setToggle] = useState(true);
@@ -30,28 +31,41 @@ const Header = () => {
 
   const navListItems = headersLink.map((navList) => (
     <li key={navList.headerTab}>
-      <span  className="hover:text-gray-500">
-        {navList.headerTab}
-      </span>
+      <span className="hover:text-gray-500">{navList.headerTab}</span>
     </li>
   ));
 
   return (
     <header>
+      <div
+        className={`${
+          toggle ? "navMobile open" : "navMobile"
+        } flex flex-col bg-white dark:bg-[#0F172A]`}
+      >
+        {headersLink.map((mobileNavList, index) => (
+          <div
+            className="text-2xl text-black dark:text-white w-[80%] text-center mb-8 bg-gray-200 dark:bg-slate-800 py-3 rounded-full"
+            key={index}
+          >
+            {mobileNavList.headerTab}
+          </div>
+        ))}
+        <div
+          className="text-2xl text-black dark:text-white w-[80%] text-center bg-red-200 py-3 rounded-full flex justify-center"
+          onClick={() => setToggle(false)}
+        >
+          <IonIcon
+            icon={close}
+            className="text-3xl cursor-pointer text-black close-icon"
+          ></IonIcon>
+        </div>
+      </div>
       <nav className="flex justify-between items-center w-[92%] mx-auto  ">
         <div>
-          <img
-            className="w-16"
-            src="https://cdn-icons-png.flaticon.com/512/5968/5968204.png"
-            alt=""
-          />
+          <img className="w-20" src={logo} alt="" />
         </div>
-        <div
-          className={`md:static absolute md:min-h-fit min-h-[60vh] left-0 md:w-auto w-full flex items-center px-5 duration-500 ${
-            toggle ? "top-[-100%]" : "top-[9%]" 
-          }`}
-        >
-          <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 text-black dark:text-white">
+        <div className="md:static hidden bg-red md:min-h-fit min-h-[60vh] left-0 md:w-auto w-full md:flex items-center px-5 duration-500">
+          <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 text-black dark:text-white hover:cursor-pointer">
             {navListItems}
           </ul>
         </div>
@@ -61,7 +75,7 @@ const Header = () => {
           </button>
           <Switcher />
 
-          {toggle ? (
+          {!toggle ? (
             <IonIcon
               icon={menu}
               className="text-3xl cursor-pointer md:hidden dark:text-white"
