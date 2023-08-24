@@ -5,7 +5,7 @@ import Switcher from "../helper/Switcher";
 import logo from "../assets/logo.png";
 
 const Header = () => {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
 
   const changeToggle = () => {
     setToggle(!toggle);
