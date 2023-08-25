@@ -33,6 +33,10 @@ const Header = () => {
       headerTab: "Blog",
       linkTo: "hoc",
     },
+    {
+      headerTab: "Contact Us",
+      linkTo: "contact",
+    },
   ];
 
   const navListItems = headersLink.map((navList, index) => (

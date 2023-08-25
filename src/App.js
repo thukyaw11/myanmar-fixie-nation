@@ -8,13 +8,16 @@ import Activities from "./components/Activities";
 import Team from "./components/Team";
 import JoinUs from "./components/JoinUs";
 import HocPage from "./components/HocPage";
+import ContactUs from "./components/ContactUs";
+import Footer from "./components/Footer";
+import ReactGA from 'react-ga4';
 
+
+ReactGA.initialize("G-4BQH6P1JX5");
 
 function App() {
-
-
   return (
-    <div className="font-poppins bg-white dark:bg-[#0F172A]" >
+    <div className="font-poppins bg-white dark:bg-[#0F172A]">
       <Header />
       <div className="container mx-auto md:px-0 px-4">
         <Landing />
@@ -24,9 +27,10 @@ function App() {
         <Team />
         <JoinUs />
         <HocPage />
+        <ContactUs />
       </div>
+      <Footer />
     </div>
   );
 }
-
 export default App;
