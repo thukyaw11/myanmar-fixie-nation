@@ -1,47 +1,47 @@
 export const galleryContent = [
     {
         tag: "stunt",
-        imageURL: "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/stunt/stunt_1.jpg"
+        imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777832/MFN/stunt/stunt_10_z7cigc.jpg"
     },
     {
         tag: "stunt",
-        imageURL: "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/stunt/stunt_2.jpg"
+        imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777832/MFN/stunt/stunt_11_t1k70f.jpg"
     },
     {
         tag: "stunt",
-        imageURL: "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/stunt/stunt_3.jpg"
+        imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777832/MFN/stunt/stunt_9_zz07xc.jpg"
     },
     {
         tag: "stunt",
-        imageURL: "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/stunt/stunt_4.jpg"
+        imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777831/MFN/stunt/stunt_7_wg8lbc.jpg"
     },
     {
         tag: "stunt",
-        imageURL: "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/stunt/stunt_5.jpg"
+        imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777831/MFN/stunt/stunt_8_vrrhys.jpg"
     },
     {
         tag: "stunt",
-        imageURL: "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/stunt/stunt_6.jpg"
+        imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777831/MFN/stunt/stunt_5_oah7fo.jpg"
     },
     {
         tag: "stunt",
-        imageURL: "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/stunt/stunt_7.jpg"
+        imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777830/MFN/stunt/stunt_3_advzn8.jpg"
     },
     {
         tag: "stunt",
-        imageURL: "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/stunt/stunt_8.jpg"
+        imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777830/MFN/stunt/stunt_6_u0merm.jpg"
     },
     {
         tag: "stunt",
-        imageURL: "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/stunt/stunt_9.jpg"
+        imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777830/MFN/stunt/stunt_2_hvphsv.jpg"
     },
     {
         tag: "stunt",
-        imageURL: "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/stunt/stunt_10.jpg"
+        imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777830/MFN/stunt/stunt_1_sqagbm.jpg"
     },
     {
         tag: "stunt",
-        imageURL: "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/stunt/stunt_11.jpg"
+        imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777830/MFN/stunt/stunt_4_rr4mtc.jpg"
     },
 
   {

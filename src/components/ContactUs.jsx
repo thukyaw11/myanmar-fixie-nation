@@ -94,7 +94,7 @@ const ContactUs = () => {
       <div className="flex justify-center mt-8">
         <form className="md:w-[50%] w-full">
           <div className="mb-6 w-full">
-            <div class="mb-6">
+            <div className="mb-6">
               <label
                 htmlFor="email"
                 className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"

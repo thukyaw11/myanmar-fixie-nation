@@ -7,20 +7,20 @@ const Footer = () => {
         <div className="sm:flex sm:items-center sm:justify-between">
           <div
             
-            className="flex items-center mb-4 sm:mb-0"
+            className="flex items-center mb-4 sm:mb-0 justify-center"
           >
-            <img src={logo} class="h-20 mr-3" alt="Flowbite Logo" />
-            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            <img src={logo} className="h-20 mr-3" alt="Flowbite Logo" />
+            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white md:block hidden">
               Myanmar Fixie Nation
             </span>
           </div>
-          <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+          {/* <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400 md:block">
             <li>
               <div
-                class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
-                  class="w-4 h-4"
+                  className="w-4 h-4"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="currentColor"
@@ -29,16 +29,16 @@ const Footer = () => {
                   <path
                     fill-rule="evenodd"
                     d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
-                <span class="sr-only">Facebook page</span>
+                <span className="sr-only">Facebook page</span>
               </div>
             </li>
-          </ul>
+          </ul> */}
         </div>
-        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
+        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span className="block text-sm text-gray-500 text-center dark:text-gray-400">
           © 2023 Myanmar Fixie Nation. All Rights Reserved. Developed by{" "}
           <a href="https://minthukyaw.vercel.app">Min Thu Kyaw</a>
         </span>

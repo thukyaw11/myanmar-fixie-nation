@@ -42,10 +42,10 @@ const Team = () => {
         className="mySwiper"
       >
 
-        {teamMember.map((member) => (
+        {teamMember.map((member, index) => (
              <SwiperSlide>
              {" "}
-             <ProfileCard member={member}/>
+             <ProfileCard member={member} key={index}/>
            </SwiperSlide>
         ))}
      

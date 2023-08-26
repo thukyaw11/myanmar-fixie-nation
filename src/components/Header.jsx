@@ -91,9 +91,15 @@ const Header = () => {
           </ul>
         </div>
         <div className="flex items-center gap-6">
-          <button className="bg-black dark:bg-white dark:text-black text-white px-5 py-2 rounded-full hover:bg-[#333634] dark:hover:bg-gray-400 transition duration-300">
-            Join Us
-          </button>
+          <Link
+            to="joinus"
+            smooth={true}
+            spy={true}
+          >
+            <button className="bg-black dark:bg-white dark:text-black text-white px-5 py-2 rounded-full hover:bg-[#333634] dark:hover:bg-gray-400 transition duration-300">
+              Join Us
+            </button>
+          </Link>
           <Switcher />
 
           {!toggle ? (

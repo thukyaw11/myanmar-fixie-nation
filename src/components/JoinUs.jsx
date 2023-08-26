@@ -1,23 +1,32 @@
 const JoinUs = () => {
   return (
-    <div className="rounded-lg w-auto mt-24 grid md:grid-cols-2 grid-cols-1 gap-4 mx-0">
+    <div
+      className="rounded-lg w-auto mt-24 grid md:grid-cols-2 grid-cols-1 gap-4 mx-0"
+      id="joinus"
+    >
       <div className="flex flex-col justify-center p-10">
-        <p className="md:text-5xl text-4xl font-semibold dark:text-white">Be a part of our community</p>
+        <p className="md:text-5xl text-4xl font-semibold dark:text-white">
+          Be a part of our community
+        </p>
         <p className="pt-6 text-gray-600 dark:text-slate-400">
           We love what we do and we do it with passion
         </p>
 
         <div className="flex">
-          <button className="bg-black dark:bg-[#cccccc] dark:text-black text-white px-5 py-2 rounded-full hover:bg-[#333634] dark:hover:bg-gray-400 w-36 mt-10 transition duration-300">
-            Join Us
-          </button>
+          <a href="https://forms.gle/wUzR6WF6mHyTxph46" target="_blank" rel="noreferrer">
+            <button className="bg-black dark:bg-[#cccccc] dark:text-black text-white px-5 py-2 rounded-full hover:bg-[#333634] dark:hover:bg-gray-400 w-36 mt-10 transition duration-300">
+              Join Us
+            </button>
+          </a>
+
+          <a href="https://forms.gle/wUzR6WF6mHyTxph46" target="_blank" rel="noreferrer">
           <button
             type="button"
-            class="text-black dark:text-white font-medium rounded-lg text-sm text-center inline-flex items-center w-36 mt-10 ml-10 transition ease-in-out delay-150 hover:-translate-x-1 duration-500"
+            className="text-black dark:text-white font-medium rounded-lg text-sm text-center inline-flex items-center w-36 mt-10 ml-10 transition ease-in-out delay-150 hover:-translate-x-1 duration-500"
           >
             Support Us
             <svg
-              class="w-3.5 h-3.5 ml-2"
+              className="w-3.5 h-3.5 ml-2"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -32,6 +41,7 @@ const JoinUs = () => {
               />
             </svg>
           </button>
+          </a>
         </div>
       </div>
       <img
