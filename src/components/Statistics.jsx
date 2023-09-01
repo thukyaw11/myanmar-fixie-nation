@@ -1,7 +1,7 @@
 const Statistics = () => {
   return (
     <div className="grid md:grid-cols-3 grid-cols-1 gap-4 mt-16">
-      <StatisticsCard count={"500"} text={"MEMBERS"} percent={false} />
+      <StatisticsCard count={"1.9k"} text={"MEMBERS"} percent={false} />
       <StatisticsCard count={"100"} text={"RIDES"} percent={false} />
       <StatisticsCard count={"100"} text={"YOUTH"} percent={true} />
     </div>

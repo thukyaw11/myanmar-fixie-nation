@@ -14,6 +14,13 @@ export const teamMember = [
       "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777933/MFN/team/vice_president_arthur_william_ai7bqv.jpg",
   },
   {
+    id: 14,
+    name: "Aung Htet Kyaw",
+    position: "Executive Director",
+    imageURL:
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1693064418/MFN/team/leader_hlaing_thar_yar_aung_htet_kyaw_ql36xk.jpg",
+  },
+  {
     id: 3,
     name: "Thet Tun Aung",
     position: "Admin",
@@ -98,13 +105,7 @@ export const teamMember = [
     imageURL:
       "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1693064422/MFN/team/hlaing_leader_hein_htet_zaw_capczk.jpg",
   },
-  {
-    id: 14,
-    name: "Aung Htet Kyaw",
-    position: "Leader (Hlaing Thar Yar)",
-    imageURL:
-      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1693064418/MFN/team/leader_hlaing_thar_yar_aung_htet_kyaw_ql36xk.jpg",
-  },
+
   {
     id: 15,
     name: "Ko Paing",
