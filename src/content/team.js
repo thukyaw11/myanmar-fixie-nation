@@ -115,9 +115,34 @@ export const teamMember = [
   },
   {
     id: 16,
+    name: 'Aung Swan Pyae',
+    position: 'Leader (Kyi Myin Dine)',
+    imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1693538751/MFN/team/kyimyindine_leader_aung_swan_pyae_u54ki6.jpg"
+  },
+  {
+    id: 17,
+    name: 'Kaung Myat Kyaw',
+    position: 'Leader (Kaung Myat Kyaw)',
+    imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1693538751/MFN/team/hlaing_thar_yar_leader_kaung_myat_kyaw_zeenrq.jpg"
+  },
+  {
+    id: 18,
+    name: 'Ro Koo',
+    position: 'Leader (Thanlyin)',
+    imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1693538751/MFN/team/rokoo_thanlyin_leader_bhnrh6.jpg"
+  },
+  {
+    id: 19,
+    name: 'Khaing Myat Aung',
+    position: 'Leader (Alone)',
+    imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1693538752/MFN/team/khaing_myat_aung_alone_leader_o6agvt.jpg"
+  },
+  {
+    id: 20,
     name: "Nadi",
     position: "Medical Team Leader",
     imageURL:
       "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1693064431/MFN/team/medical_team_leader_nadi_qsatki.jpg",
   },
+ 
 ];

@@ -14,9 +14,9 @@ const Footer = () => {
               Myanmar Fixie Nation
             </span>
           </div>
-          {/* <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400 md:block">
+          <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400 md:block">
             <li>
-              <div
+              <a href="https://www.facebook.com/profile.php?id=61550618443246&mibextid=ZbWKwL" target="_blank" rel="noreferrer"
                 className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
               >
                 <svg
@@ -33,9 +33,9 @@ const Footer = () => {
                   />
                 </svg>
                 <span className="sr-only">Facebook page</span>
-              </div>
+              </a>
             </li>
-          </ul> */}
+          </ul>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <span className="block text-sm text-gray-500 text-center dark:text-gray-400">
