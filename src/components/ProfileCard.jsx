@@ -9,10 +9,10 @@ const ProfileCard = ({member}) => {
         />
       </div>
       <div className="p-5">
-          <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
             {member.name}
           </h5>
-        <p className="mb-3 font-normal text-gray-700 dark:text-white">
+        <p className="mb-3 font-normal text-sm text-gray-700 dark:text-white">
          {member.position}
         </p>
       </div>

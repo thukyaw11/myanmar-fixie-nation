@@ -72,10 +72,10 @@ export const teamMember = [
   },
   {
     id: 9,
-    name: "Myo Myint Myat Jack",
+    name: "Thuta",
     position: "Racing Team Leader",
     imageURL:
-      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1693064438/MFN/team/racing_team_leader_myo_myint_myat_jack_w9zvjg.jpg",
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1694396738/MFN/team/racing_team_leader_thuta.jpg",
   },
   {
     id: 10,
@@ -139,6 +139,18 @@ export const teamMember = [
   },
   {
     id: 20,
+    name: 'Wai Yan Min',
+    position: 'Leader (Hin Tha Da)',
+    imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1694396806/MFN/team/hintada_leader_waiyanmin.jpg",
+  },
+  {
+    id: 21,
+    name: 'Si Thu Htun',
+    position: 'Leader (North Okkalapa)',
+    imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1694396927/MFN/team/north_okkalapa_si_thu_htun.jpg",
+  },
+  {
+    id: 22,
     name: "Nadi",
     position: "Medical Team Leader",
     imageURL:
