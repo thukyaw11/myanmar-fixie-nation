@@ -72,7 +72,7 @@ export const teamMember = [
   },
   {
     id: 9,
-    name: "Thuta",
+    name: "Thukha",
     position: "Racing Team Leader",
     imageURL:
       "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1694396738/MFN/team/racing_team_leader_thuta.jpg",
