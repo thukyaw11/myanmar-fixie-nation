@@ -43,7 +43,7 @@ function App() {
         <JoinUs />
         <HocPage />
         <ContactUs />
-        <FAQ />
+        {/* <FAQ /> */}
       </div>
       <Footer />
     </div>
