@@ -12,7 +12,6 @@ import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import ReactGA from "react-ga4";
 import { Helmet } from 'react-helmet'
-import FAQ from "./components/FAQ";
 
 ReactGA.initialize("G-4BQH6P1JX5");
 
@@ -43,7 +42,6 @@ function App() {
         <JoinUs />
         <HocPage />
         <ContactUs />
-        {/* <FAQ /> */}
       </div>
       <Footer />
     </div>
