@@ -67,6 +67,14 @@ const Activities = () => {
         >
           Donation
         </button>
+        <button
+          onClick={() => filterImage("donation-night")}
+          type="button"
+          className= {`${currentTab === 'donation-night' ? 'text-white bg-black': 'text-black bg-white'} hover:text-white border border-black-600 transition duration-300 hover:bg-black focus:ring-4 focus:outline-none rounded-full text-base font-medium px-5 py-2.5 text-center mr-3 mb-3 `}
+
+        >
+          Night Ride Donation
+        </button>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {images.map((gallery, index) => (

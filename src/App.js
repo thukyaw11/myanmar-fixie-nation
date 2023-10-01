@@ -12,6 +12,8 @@ import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import ReactGA from "react-ga4";
 import { Helmet } from 'react-helmet'
+import Media from "./components/Media";
+import DemoForm from "./components/DemoForm";
 
 ReactGA.initialize("G-4BQH6P1JX5");
 
@@ -35,8 +37,10 @@ function App() {
       <Header />
       <div className="container mx-auto md:px-0 px-4">
         <Landing />
+        {/* <DemoForm /> */}
         <Statistics />
         <Whoweare />
+        <Media />
         <Activities />
         <Team />
         <JoinUs />

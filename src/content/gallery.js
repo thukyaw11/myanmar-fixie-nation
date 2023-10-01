@@ -47,112 +47,141 @@ export const galleryContent = [
   {
     tag: "long_ride",
     imageURL:
-      "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/long_ride/long_ride_1.jpg",
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777896/MFN/long_ride/long_ride_14_odr590.jpg",
   },
   {
     tag: "long_ride",
     imageURL:
-      "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/long_ride/long_ride_2.jpg",
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777895/MFN/long_ride/long_ride_13_o25px0.jpg",
   },
   {
     tag: "long_ride",
     imageURL:
-      "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/long_ride/long_ride_3.jpg",
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777895/MFN/long_ride/long_ride_12_taiexy.jpg",
   },
   {
     tag: "long_ride",
     imageURL:
-      "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/long_ride/long_ride_4.jpg",
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777895/MFN/long_ride/long_ride_8_twiv5k.jpg",
   },
   {
     tag: "long_ride",
     imageURL:
-      "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/long_ride/long_ride_5.jpg",
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777895/MFN/long_ride/long_ride_10_zmejbz.jpg",
   },
   {
     tag: "long_ride",
     imageURL:
-      "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/long_ride/long_ride_6.jpg",
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777895/MFN/long_ride/long_ride_11_zcgqvz.jpg",
   },
   {
     tag: "long_ride",
     imageURL:
-      "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/long_ride/long_ride_7.jpg",
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777895/MFN/long_ride/long_ride_9_imrwfc.jpg",
   },
   {
     tag: "long_ride",
     imageURL:
-      "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/long_ride/long_ride_8.jpg",
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777894/MFN/long_ride/long_ride_7_rp7whm.jpg",
   },
   {
     tag: "long_ride",
     imageURL:
-      "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/long_ride/long_ride_9.jpg",
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777894/MFN/long_ride/long_ride_6_chyrc1.jpg",
   },
   {
     tag: "long_ride",
     imageURL:
-      "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/long_ride/long_ride_10.jpg",
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777893/MFN/long_ride/long_ride_4_wnrojn.jpg",
   },
   {
     tag: "long_ride",
     imageURL:
-      "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/long_ride/long_ride_11.jpg",
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777893/MFN/long_ride/long_ride_3_trufeq.jpg",
   },
   {
     tag: "long_ride",
     imageURL:
-      "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/long_ride/long_ride_12.jpg",
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777893/MFN/long_ride/long_ride_2_ttlqeg.jpg",
   },
   {
     tag: "long_ride",
     imageURL:
-      "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/long_ride/long_ride_13.jpg",
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777892/MFN/long_ride/long_ride_1_fr10l2.jpg",
   },
   {
     tag: "donation",
     imageURL:
-      "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/donation/donation_1.jpg",
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692776006/MFN/donation/donation_10_d4ndvv.jpg",
   },
   {
     tag: "donation",
     imageURL:
-      "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/donation/donation_2.jpg",
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692776006/MFN/donation/donation_8_augziv.jpg",
   },
   {
     tag: "donation",
     imageURL:
-      "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/donation/donation_3.jpg",
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692776006/MFN/donation/donation_7_mc61ju.jpg",
   },
   {
     tag: "donation",
     imageURL:
-      "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/donation/donation_4.jpg",
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692776005/MFN/donation/donation_3_r1yibb.jpg",
   },
   {
     tag: "donation",
     imageURL:
-      "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/donation/donation_5.jpg",
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692776005/MFN/donation/donation_2_l8vu1p.jpg",
   },
   {
     tag: "donation",
     imageURL:
-      "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/donation/donation_6.jpg",
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692776005/MFN/donation/donation_4_tkziip.jpg",
   },
   {
     tag: "donation",
     imageURL:
-      "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/donation/donation_7.jpg",
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692776004/MFN/donation/donation_6_djvy0d.jpg",
   },
   {
     tag: "donation",
     imageURL:
-      "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/donation/donation_8.jpg",
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692776004/MFN/donation/donation_6_djvy0d.jpg",
   },
 
   {
     tag: "donation",
     imageURL:
-      "https://upcdn.io/12a1yYY/raw/myanmar-fixie-nation/donation/donation_10.jpg",
+      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692776004/MFN/donation/donation_1_uvslu5.jpg",
   },
+
+  {
+    tag: "donation-night",
+    imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1695997598/MFN/NightRide%20Donation/donation-nightride-5_eth8rg.jpg",
+  },
+  {
+    tag: "donation-night",
+    imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1695997597/MFN/NightRide%20Donation/donation-nightride-3_z1h8ja.jpg"
+  },
+  {
+    tag: "donation-night",
+    imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1695997597/MFN/NightRide%20Donation/donation-nightride7_njjggu.jpg"
+  },
+  {
+    tag: "donation-night",
+    imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1695997597/MFN/NightRide%20Donation/donation-nightride-6_ezazzg.jpg"
+  },
+  {
+    tag: "donation-night",
+    imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1695997597/MFN/NightRide%20Donation/donation-nightride-4_lxr4vd.jpg"
+  },
+  {
+    tag: "donation-night",
+    imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1695997597/MFN/NightRide%20Donation/donation-nightride-2_ugvpat.jpg"
+  },
+  {
+    tag: "donation-night",
+    imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1695997597/MFN/NightRide%20Donation/donation-nightride-1_vtthqh.jpg"
+  }
 ];
