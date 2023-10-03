@@ -1,9 +1,49 @@
+import { useEffect, useState } from "react";
+import { firestore} from "../network/firebase";
+import { getDocs, collection }  from "@firebase/firestore"
+
+
+
+
 const Statistics = () => {
+  const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  const fetchData = async () => {
+    try {
+      const querySnapshot = await getDocs(collection(firestore, 'messages'));
+      const documents = querySnapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+      setData(documents);
+      setLoading(false);
+    } catch (error) {
+      console.error('Error fetching data:', error);
+      setLoading(false);
+    }
+  };
+
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+
+ 
+
   return (
     <div className="grid md:grid-cols-3 grid-cols-1 gap-4 mt-16">
-      <StatisticsCard count={"1.9k"} text={"MEMBERS"} percent={false} />
+      {/* {!loading && 
+      <>
+      { data.map((item) => (
+         ))}
+         </>
+         }
+         { loading && 
+           <div>loading</div>
+         } */}
+        <StatisticsCard count={'2.5k'} text={"MEMBERS"} percent={false} />
+     
       <StatisticsCard count={"100"} text={"RIDES"} percent={false} />
-      <StatisticsCard count={"100"} text={"YOUTH"} percent={true} />
+      <StatisticsCard count={"100"} text={"YOUTH"} percent={true} /> 
     </div>
   );
 };
