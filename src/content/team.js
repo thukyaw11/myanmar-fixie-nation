@@ -63,13 +63,13 @@ export const teamMember = [
     imageURL:
       "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1693064446/MFN/team/secretary_kaung_min_khant_mkjdlz.jpg",
   },
-  {
-    id: 8,
-    name: "Uzi",
-    position: "Stunt Team Leader",
-    imageURL:
-      "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1693064436/MFN/team/stunt_team_leader_uzi_t9ftyz.jpg",
-  },
+  // {
+  //   id: 8,
+  //   name: "Uzi",
+  //   position: "Stunt Team Leader",
+  //   imageURL:
+  //     "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1693064436/MFN/team/stunt_team_leader_uzi_t9ftyz.jpg",
+  // },
   {
     id: 9,
     name: "Thukha",
