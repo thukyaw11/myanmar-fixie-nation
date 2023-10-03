@@ -9,22 +9,22 @@ const Statistics = () => {
   // const [data, setData] = useState([]);
   // const [loading, setLoading] = useState(true);
 
-  const fetchData = async () => {
-    try {
-      const querySnapshot = await getDocs(collection(firestore, 'messages'));
-      const documents = querySnapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
-      setData(documents);
-      setLoading(false);
-    } catch (error) {
-      console.error('Error fetching data:', error);
-      setLoading(false);
-    }
-  };
+  // const fetchData = async () => {
+  //   try {
+  //     const querySnapshot = await getDocs(collection(firestore, 'messages'));
+  //     const documents = querySnapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+  //     setData(documents);
+  //     setLoading(false);
+  //   } catch (error) {
+  //     console.error('Error fetching data:', error);
+  //     setLoading(false);
+  //   }
+  // };
 
 
-  useEffect(() => {
-    fetchData();
-  }, []);
+  // useEffect(() => {
+  //   fetchData();
+  // }, []);
 
 
  
