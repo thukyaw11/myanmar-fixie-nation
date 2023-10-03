@@ -6,8 +6,8 @@ import { getDocs, collection }  from "@firebase/firestore"
 
 
 const Statistics = () => {
-  const [data, setData] = useState([]);
-  const [loading, setLoading] = useState(true);
+  // const [data, setData] = useState([]);
+  // const [loading, setLoading] = useState(true);
 
   const fetchData = async () => {
     try {

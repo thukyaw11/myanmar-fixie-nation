@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 import ReactGA from "react-ga4";
 import { Helmet } from 'react-helmet'
 import Media from "./components/Media";
-import DemoForm from "./components/DemoForm";
+// import DemoForm from "./components/DemoForm";
 
 ReactGA.initialize("G-4BQH6P1JX5");
 
