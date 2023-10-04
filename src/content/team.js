@@ -64,42 +64,54 @@ export const teamMember = [
       "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1693064446/MFN/team/secretary_kaung_min_khant_mkjdlz.jpg",
   },
   {
-    id: 8,
+    id: 9,
     name: "Ye Bhone Aung",
     position: "Advisor",
     imageURL:
       "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1696338957/MFN/team/yebhoneaung-advisor.jpg",
   },
   {
-    id: 9,
+    id: 10,
     name: "Thukha",
     position: "Racing Team Leader",
     imageURL:
       "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1694396738/MFN/team/racing_team_leader_thuta.jpg",
   },
   {
-    id: 10,
+    id: 11,
     name: "Phoo Pwint Naing",
     position: "Girl Leader",
     imageURL:
       "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1693064435/MFN/team/girl_leader_phoo_pwint_naing_dwhfdr.jpg",
   },
   {
-    id: 11,
+    id: 12,
     name: "Aung Khant Kyaw",
     position: "Leader (Mingalardon)",
     imageURL:
       "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1693064432/MFN/team/mingalardon_leader_aung_khant_kyaw_bckfji.jpg",
   },
   {
-    id: 12,
+    id: 13,
     name: "Kyaw Thant Zin",
     position: "Leader (Monywa)",
     imageURL:
       "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1693064431/MFN/team/monywa_leader_kyaw_thant_zin_ykbjd1.jpg",
   },
   {
-    id: 13,
+    id:14,
+    name: "Khant Kyaw Khine",
+    position: "Leader (Min Buu)",
+    imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1696387524/MFN/team/minbuu-leader_qjgmcg.jpg"
+  },
+  {
+    id:15,
+    name: "Travis Mellon",
+    position: "Leader (Bago)",
+    imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1696387524/MFN/team/bago-leader_dnlnml.jpg"
+  },
+  {
+    id: 16,
     name: "Hein Htet Zaw",
     position: "Leader (Hlaing)",
     imageURL:
@@ -107,50 +119,50 @@ export const teamMember = [
   },
 
   {
-    id: 15,
+    id: 17,
     name: "Ko Paing",
     position: "Leader (Tarmwe)",
     imageURL:
       "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1692777933/MFN/team/tarmwe_leader_ko_paing_bfwcwq.jpg",
   },
   {
-    id: 16,
+    id: 18,
     name: 'Aung Swan Pyae',
     position: 'Leader (Kyi Myin Dine)',
     imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1693538751/MFN/team/kyimyindine_leader_aung_swan_pyae_u54ki6.jpg"
   },
   {
-    id: 17,
+    id: 19,
     name: 'Kaung Myat Kyaw',
     position: 'Leader (Kaung Myat Kyaw)',
     imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1693538751/MFN/team/hlaing_thar_yar_leader_kaung_myat_kyaw_zeenrq.jpg"
   },
   {
-    id: 18,
+    id: 20,
     name: 'Ro Koo',
     position: 'Leader (Thanlyin)',
     imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1693538751/MFN/team/rokoo_thanlyin_leader_bhnrh6.jpg"
   },
   {
-    id: 19,
+    id: 21,
     name: 'Khaing Myat Aung',
     position: 'Leader (Alone)',
     imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1693538752/MFN/team/khaing_myat_aung_alone_leader_o6agvt.jpg"
   },
   {
-    id: 20,
+    id: 22,
     name: 'Wai Yan Min',
     position: 'Leader (Hin Tha Da)',
     imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1694396806/MFN/team/hintada_leader_waiyanmin.jpg",
   },
   {
-    id: 21,
+    id: 23,
     name: 'Si Thu Htun',
     position: 'Leader (North Okkalapa)',
     imageURL: "https://res.cloudinary.com/myanmar-fixie-nation/image/upload/v1694396927/MFN/team/north_okkalapa_si_thu_htun.jpg",
   },
   {
-    id: 22,
+    id: 24,
     name: "Nadi",
     position: "Medical Team Leader",
     imageURL:
